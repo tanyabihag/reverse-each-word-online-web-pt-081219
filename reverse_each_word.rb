@@ -1,17 +1,13 @@
- def reverse_a_string(string)
-  result = string.split().each do |word| 
-     word.reverse!
-  end 
-  result.join(" ")
- end 
+sentence1 = "Hello there, and how are you?"
+sentence2 = "Hi again, just making sure it's reversed!"
 
- reverse_a_string("Hello there, and how are you?")
 
-def reverse_a_string(string)
-  result = string.split().collect do |word|
-    word.reverse 
-  end 
-  result.join(" ")
-end 
-
-reverse_a_string("Hello there, and how are you?")
+ def reverse_each_word(sentence1)
+  split_string = sentence1.split(" ")
+  new_arr = split_string.reverse 
+  reverse_array = new_arr.join(" ")
+   return reverse_array.reverse
+  split_string.collect do |sentence1|
+    return "Verifying that collect is being called."
+  end
+end
