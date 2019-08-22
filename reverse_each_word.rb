@@ -9,8 +9,8 @@ sentence2 = "Hi again, just making sure it's reversed!"
    return reverse_array.reverse
 end
 
-def reverse_each_word[]
-  sentence1.collect do |sentence1|
-    puts "#{sentence1}"
+def reverse_each_word
+  new_arr = []
+  new_arr.collect do |sentence1|
   end
 end
