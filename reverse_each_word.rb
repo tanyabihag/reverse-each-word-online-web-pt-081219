@@ -15,3 +15,4 @@ def reverse_each_word(sentence1)
   split_string.join(" ")
 end
 
+reverse_each_word("Verifying that collect is being called.")
