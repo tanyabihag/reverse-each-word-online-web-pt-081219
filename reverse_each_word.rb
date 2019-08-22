@@ -8,6 +8,6 @@ sentence2 = "Hi again, just making sure it's reversed!"
   reverse_array = new_arr.join(" ")
    return reverse_array.reverse
   new_array.collect do |sentence|
-    return "Verifying that collect is being called."
+    puts "Verifying that collect is being called."
   end
 end
