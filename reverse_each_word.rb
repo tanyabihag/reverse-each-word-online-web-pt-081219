@@ -7,7 +7,7 @@ sentence2 = "Hi again, just making sure it's reversed!"
   new_arr = split_string.reverse 
   reverse_array = new_arr.join(" ")
    return reverse_array.reverse
-  new_array.collect do |sentence|
+  split_string.collect do |sentence1|
     puts "Verifying that collect is being called."
   end
 end
